@@ -1,0 +1,69 @@
+.Footer {
+    font-family: Helvetica, Arial, Sans-Serif;
+    bottom: 0;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    background: #000 !important;
+    color: white;
+    display: block;
+    height: 32px;
+    line-height: 30px;
+}
+
+.footerInfo {
+    float: left;
+    font-size: 13px;
+    padding-left: 50px;
+}
+
+.light {
+    color: #0f0;
+}
+
+.btn-set {
+    font-size: 13px;
+    padding: 0 30px;
+    background: #236abb;
+    border: 0;
+    color: #fff;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    transition: background 0.3s;
+    text-transform: none;
+    margin: 0;
+    vertical-align: baseline;
+    cursor: pointer;
+
+}
+
+.btn-set:hover {
+    background: #245b9a;
+}
+
+.btn-market {
+    font-size: 13px;
+    margin-right: 4px;
+    padding: 0 10px;
+    position: relative;
+    border: 0;
+    color: #fff;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.btn-market:hover {
+    background: #303030;
+
+}
+
+.iconFooter {
+    margin-right: 3px;
+    margin-top: 6px;
+    float: left;
+    display: flex;
+}

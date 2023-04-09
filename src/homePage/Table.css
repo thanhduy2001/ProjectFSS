@@ -1,0 +1,119 @@
+.topTable {
+    top: 84px;
+    position: fixed;
+    width: 100%;
+    z-index: 36;
+    table-layout: fixed;
+}
+
+.body {
+    position: relative;
+}
+
+.tieuDe {
+    color: white;
+    border-color: grey;
+    display: table;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: helvetica, arial, sans-serif;
+    border-spacing: 0;
+    text-indent: initial;
+    table-layout: fixed;
+    width: 200px;
+    background: #232323;
+
+
+}
+
+.banggia-body {
+    table-layout: fixed;
+
+}
+
+tr,
+th,
+td,
+thead {
+    border-width: 1px;
+    font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    padding: 0 3px;
+    white-space: nowrap;
+    border: 1px solid #343434;
+    user-select: none;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: -internal-center;
+}
+
+/* phần chỉnh sửa css cho thông tin bảng giá */
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table.banggia tr td {
+    max-width: 1247px;
+    font-size: 11px;
+    border: 1px solid #333;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: tahoma, helvetica, arial, sans-serif;
+    padding: 0;
+
+}
+
+table.banggia.banggia-full,
+table.topTable.tieuDe {
+    /* margin-top: 59px;
+    margin-bottom: 11174.4px; */
+    min-width: 992px;
+    transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+    transition-duration: 0ms;
+    transform: translate(0px, 0px) translateZ(0px);
+}
+
+table.banggia {
+    color: white;
+    font-size: 11px;
+    border-collapse: collapse;
+    font-family: helvetica, arial, sans-serif;
+    table-layout: fixed;
+    width: 100%;
+    background-color: black;
+    margin-top: 99px;
+    z-index: 36;
+}
+
+table {
+    border-spacing: 0;
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-color: grey;
+}
+
+.span-symbol {
+    padding: 1px 0px 1px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: fit-content;
+
+}

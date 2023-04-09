@@ -1,0 +1,270 @@
+.header {
+  display: flex;
+  background: rgba(60, 60, 60);
+  box-sizing: border-box;
+  line-height: 20px;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  min-width: 800px;
+  z-index: 99;
+  height: 42px;
+}
+
+.date {
+  margin-left: 0px;
+  display: flex;
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+}
+
+.menuRight {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  z-index: 101;
+  width: 30%;
+
+}
+
+.btn-sign-in {
+  font-size: 12px;
+  font-weight: normal;
+  width: auto;
+  background-color: #236abb;
+  color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 1px;
+  margin-right: 5px;
+  padding: 0 10px;
+  transition: all 0.15s;
+  cursor: pointer;
+  text-decoration: none;
+  height: fit-content;
+}
+
+.arrow-down-btn {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+
+}
+
+.account-dropdown {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  text-align: right;
+  width: 65px;
+}
+
+.account-dropdown-btn {
+  align-items: center;
+  box-sizing: border-box;
+  float: right;
+  font-size: 1.05em;
+  height: 42px;
+  position: relative;
+}
+
+
+.icon {
+  margin-right: 3px;
+  margin-top: 2.5px;
+  float: left;
+  display: flex;
+}
+
+.lineBetween {
+  margin-top: -100px;
+  margin-bottom: 10px;
+  background: rgb(0, 0, 0);
+  width: 1px;
+}
+
+.separate-line {
+  background-color: #383c45;
+  height: 1px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.account-drop-list {
+  background-color: #3a3a3a;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 5px 2px;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 10px 5px 10px;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  width: 280px;
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+.account-dropdown:hover .account-drop-list{
+  display: block;
+}
+
+
+
+
+/* chỉnh màu giao diện */
+
+.aditional-info-container {
+  background-color: #222;
+  border-radius: 5px;
+  max-height: 250px;
+  padding: 5px 10px;
+  width: 93%;
+}
+
+.setting-pane {
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.setting-item {
+  overflow: hidden;
+}
+
+.setting-item-title {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.setting-option-item {
+  margin-right: 2px;
+}
+
+h4 {
+  font-size: 1em;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.align-center {
+  text-align: center !important;
+}
+
+.offset-3 {
+  float: left;
+  margin-left: 8.6667%;
+}
+
+input[type=radio] {
+  height: 16px;
+  margin-top: 2px;
+  width: 16px;
+}
+
+.offset-1 {
+  float: left;
+  margin-left: 7px;
+}
+
+/* chỉnh ngôn ngữ */
+
+.language-dropdown {
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline;
+  position: relative;
+  text-align: left;
+  vertical-align: text-bottom;
+
+}
+
+.offset-2 {
+  float: left;
+  margin-left: 18%;
+  margin-bottom: 10px;
+}
+
+.lang-icon {
+  font-size: 30px;
+  width: 30px;
+}
+
+li {
+  padding: 6px 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+.align-center:hover{
+  color: #236abb;
+}
+.logOut {
+  margin-top: 5px;
+}
+.loginName{
+  padding-right: 10px;
+  color: white;
+}
+
+
+/* dropdown action */
+
+
+
+
+
+/* .scroll-container {
+    z-index: 99;
+    overflow: hidden;
+    max-width: 54%;
+    white-space:nowrap;
+    margin-left: 10px;
+  }
+  
+  .scroll-text {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 30s linear infinite;
+    -webkit-animation: my-animation 30s linear infinite;
+    animation: my-animation 30s linear infinite;
+  }
+  
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  .scroll-value{
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: small;
+  
+  }
+  .orange-txt{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  .yellow-txt{
+    color: #d5ae22;
+    font-weight: bold;
+    font-size: small;
+  
+  } */

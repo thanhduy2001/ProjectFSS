@@ -1,0 +1,162 @@
+.container {
+  padding: 100px 0 0 0;
+  margin: auto 0 auto auto;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 220px;
+  margin: 0 auto 10px auto;
+}
+
+.logoForm {
+  border: 0;
+  font-size: 0;
+  line-height: 0;
+  max-width: 100%;
+
+}
+
+.iconflag {
+  padding-right: 5px;
+  width: 30px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.textIcon {
+  font-size: 13px;
+  color: white;
+}
+
+.switchLang {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.formLogin {
+  background-color: #0071ba;
+  max-width: 360px;
+  padding: 20px 50px;
+  margin: auto 30px auto auto;
+  height: fit-content !important;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.inputForm {
+  padding-left: 40px;
+  background: white;
+  box-sizing: border-box;
+-webkit-border-radius: 3px;
+  color: rgba(0, 0, 0, 0.8);
+  height: 40px;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-family: arial;
+  font: inherit;
+  margin-bottom: 20px;
+}
+
+.inputForm:hover {
+  border: 3px solid #FFAC42;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 35px;
+  font-size: 14px;
+  margin-bottom: 13px;
+  color: #fff;
+  background: #185ba8;
+  cursor: pointer;
+  font-weight: 700;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: arial;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+a.btn {
+  padding-top: 10px;
+  height: 30px;
+}
+
+.btn:hover {
+  border: 1px solid #bb8d09;
+  background: #bb8d09;
+  filter: brightness(120%);
+}
+
+.loginFlex {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.formLink {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: 1;
+}
+
+a.formLink:hover {
+  text-decoration: none;
+}
+
+.separator {
+  padding: 0 50px;
+  border: none;
+  height: 1px;
+  background: white;
+
+}
+
+.smallInfo {
+  font-size: 15px;
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bodyHome {
+  max-width: 2000px;
+  height: 100vh;
+  z-index: 99;
+  background-size: contain, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  position: relative;
+  background-image: url('../../public/images/BVSC/background.jpg');
+}
+
+.bg {
+  height: 86.2vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../public/images/BVSC/front-vi.png');
+  background-size: contain, cover;
+  opacity: 0.9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.error {
+  text-align: center;
+  color: white;
+}
